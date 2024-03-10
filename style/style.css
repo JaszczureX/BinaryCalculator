@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Neonderthaw&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: #023e8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  width: 100%;
+}
+
+#container {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0077b6;
+  border-radius: 10px;
+  gap: 20px;
+  box-shadow: 10px 10px 40px 10px #00000088;
+}
+
+#container > input {
+  width: 40%;
+  height: 50px;
+  background: none;
+  background: #0096c7;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px #00000088;
+  transition: 0.3s;
+  border: none;
+  color: white;
+}
+
+#container > input:hover {
+  background: #0095c7c2;
+}
+
+#container > input:focus {
+  scale: 1.05;
+  border: none;
+}
+
+#container > input::placeholder {
+  color: #fff;
+  font-size: medium;
+}
+
+#container > p {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #0096c7;
+  color: #fff;
+  font-size: larger;
+  font-weight: 600;
+  border-radius: 10px;
+}
